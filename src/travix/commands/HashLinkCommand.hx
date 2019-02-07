@@ -10,7 +10,7 @@ class HashLinkCommand extends Command {
   var hlCommand = "hl";
   
   public function install() {
-    if(!Travix.isTravis || !supported())
+    if(!Travix.isTravis)
       return;
 
     exec('git', 'clone', ['https://github.com/HaxeFoundation/hashlink.git', 'hashlink']);
