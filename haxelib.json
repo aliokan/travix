@@ -19,6 +19,7 @@
 	"url": "http://github.com/back2dos/travix/",
 	"postDownload": "haxe -cp src --run travix.PostDownload",
 	"dependencies": {
-		"tink_cli": ""
+		"tink_cli": "",
+		"hx3compat": ""
 	}
 }
